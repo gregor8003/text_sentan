@@ -33,16 +33,16 @@ MDSD
 ^^^^
 
 Multi-Domain Sentiment
-Dataset `(MDSD) version 1 <https://www.cs.jhu.edu/~mdredze/datasets/sentiment/index2.html>`
+Dataset (MDSD) version 1 (https://www.cs.jhu.edu/~mdredze/datasets/sentiment/index2.html)
 contains Amazon reviews from four categories: books, dvd, electronics,
 kitchen & housewares. They are rated from 1 to 5, where 1 or 2 means "negative",
 and 4 or 5 means "positive". The dataset contains labeled and unlabeled data.
 
 * Download https://www.cs.jhu.edu/~mdredze/datasets/sentiment/domain_sentiment_data.tar.gz and unpack to the directory of choice.
 
-* Move/copy four subdirectories with categories data to directory named 'mdsd', or simply rename unpacked one.
+* Move/copy four subdirectories with categories data to directory named ``mdsd``, or simply rename unpacked one.
 
-* Download https://www.cs.jhu.edu/~mdredze/datasets/sentiment/book.unlabeled.gz, unpack it and place as 'mdsd/books/unlabeled.review'.
+* Download https://www.cs.jhu.edu/~mdredze/datasets/sentiment/book.unlabeled.gz, unpack it and place as ``mdsd/books/unlabeled.review``.
 
 You should end up with the following directory structure:
 
